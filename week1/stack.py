@@ -23,6 +23,7 @@ class Stack:
         if self.head is not None:
             poped_node = self.head
             self.head = self.head.next_node
+            self.size -= 1
             return poped_node.data
         return "empty stack"
 

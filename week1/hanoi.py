@@ -20,3 +20,14 @@ print(A.stackSize())
 """##############################################################
 solving for tower of hanoi
 #################################################################"""
+
+B.push(A.pop())
+B.push(A.pop())
+B.printstack()
+A.printstack()
+C.push(A.pop())
+C.push(B.pop())
+C.push(B.pop())
+B.printstack()
+A.printstack()
+C.printstack()
