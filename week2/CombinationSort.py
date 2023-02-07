@@ -54,7 +54,7 @@ def reverseList(arr):
     while start < end :
         temp = arr[start]
         arr[start] = arr[end]
-        arr[end] = arr[start]
+        arr[end] = temp
         end -= 1
         start += 1
     return arr
